@@ -7,3 +7,21 @@
 body{
     font-family: 'Roboto', sans-serif !important;
 }
+
+.background{
+    min-height: 100vh;
+    background-image: url(assets/img/cinema-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.glass{
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.137);
+    position: relative;
+    top: 5vh;
+}
