@@ -1,3 +1,39 @@
 <div class="background">
-    <div class="container glass">aggiungi un nuovo film</div>
+    <div class="container glass">
+        <h4 class="head-text text-center m-5">Aggiungi un nuovo film</h4>
+        <form>
+            <div class="m-3">
+                <label for="titleInput" class="form-label">Titolo:</label>
+                <input type="text" name="title" id="titleInput" class="form-control" required>
+            </div>
+            <div class="m-3">
+                <label for="imgInput" class="form-label">Locandina:</label>
+                <input type="text" name="imgUrl" id="imgInput" class="form-control"
+                    placeholder="http://esempio/immagine" required>
+            </div>
+            <div class="m-3">
+                <label for="descriptionInput" class="form-label">Descrizione:</label>
+                <textarea name="description" id="descriptionInput" class="form-control" rows="5" required></textarea>
+            </div>
+            <div class="row m-3">
+                <div class="col">
+                    <label for="scheduleStartInput" class="form-label">Inizio programmazione:</label>
+                    <input type="date" name="scheduleStart" id="scheduleStartInput" class="form-control" required>
+                </div>
+                <div class="col">
+                    <label for="scheduleEndInput" class="form-label">Fine programmazione:</label>
+                    <input type="date" name="scheduleEnd" id="scheduleEndInput" class="form-control" required>
+                </div>
+            </div>
+            <div class="row m-3">
+                <div class="col">
+                    <label for="hallInput" class="form-label">N° sala:</label>
+                    <input type="number" name="hall" id="hallInput" class="form-control" min="1" max="12" required>
+                </div>
+                <div class="col">
+                    <button type="submit" class="btn btn-outline-light btn-lg mt-4 float-end">Aggiungi</button>
+                </div>
+            </div>
+        </form>
+    </div>
 </div>

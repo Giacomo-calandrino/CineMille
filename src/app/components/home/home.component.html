@@ -1,9 +1,12 @@
 <div class="background">
     <div class="container">
+        
+        <!-- Lista film -->
+        
         <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-3">
             <div class="col">
                 <div class="card my-4 text-bg-dark shadow-lg">
-                    <img src="..." class="card-img-top" alt="poster">
+                    <img src="..." class="card-img-top poster" alt="poster">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
@@ -12,6 +15,14 @@
                         <button routerLink="/details" class="btn btn-outline-light btn-sm float-end">Dettagli</button>
                     </div>
                 </div>
+            </div>
+        </div>
+        
+        <!-- Loading -->
+
+        <div *ngIf="isLoading" class="d-flex justify-content-center align-items-center div-loading">
+            <div class="spinner-border loading" role="status">
+                <span class="visually-hidden">Loading...</span>
             </div>
         </div>
     </div>
