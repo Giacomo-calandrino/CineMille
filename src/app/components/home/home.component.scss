@@ -7,6 +7,12 @@
   width: 5rem;
 }
 
+.card-title{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 @media screen and (max-width: 1200px){
   .poster{
      height: 20rem;

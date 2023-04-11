@@ -1,3 +1,94 @@
 {
-    "movies": []
+  "movies": [
+    {
+      "title": "Super Mario Bros. Il film",
+      "imgUrl": "https://www.ucicinemas.it/media/movie/o/2023/super-mario-bros-il-film_zlQbhBT.png",
+      "description": "Un idraulico di Brooklyn di nome Mario viaggia attraverso il Regno dei Funghi con una principessa di nome Peach e un fungo antropomorfo di nome Toad per trovare il fratello di Mario, Luigi, e salvare il mondo da uno spietato mostro sputafuoco di nome Bowser.",
+      "scheduleStart": "2023-04-20",
+      "scheduleEnd": "2023-05-04",
+      "hall": 6,
+      "id": 1
+    },
+    {
+      "title": "Creed III",
+      "imgUrl": "https://blog.screenweek.it/wp-content/uploads/2023/02/01/creed-3-poster.webp",
+      "description": "Dopo aver dominato il mondo della boxe, Adonis Creed ha prosperato sia nella sua carriera che nella vita familiare. Quando un amico d'infanzia ed ex prodigio di boxe, Damien Anderson, riappare dopo aver scontato una lunga pena in prigione, è ansioso di dimostrare che merita la sua possibilità sul ring. Il faccia a faccia tra ex amici è più di una semplice rissa. Per regolare i conti, Adonis deve mettere in gioco il suo futuro per combattere contro Damien, un combattente che non ha nulla da perdere.",
+      "scheduleStart": "2023-04-22",
+      "scheduleEnd": "2023-05-06",
+      "hall": 2,
+      "id": 2
+    },
+    {
+      "title": "Shazam! Furia degli dei",
+      "imgUrl": "https://sm.ign.com/ign_it/movie/s/shazam-2-1/shazam-2-1_mdfs.jpg",
+      "description": "Quando le Figlie di Atlante, un vendicativo trio di antiche divinità, arrivano sulla Terra alla ricerca della magia che è stata loro rubata molto tempo fa, la [Shazamily] è spinta in una battaglia per i loro superpoteri, le loro vite e il destino del loro mondo.",
+      "scheduleStart": "2023-04-12",
+      "scheduleEnd": "2023-05-03",
+      "hall": 5,
+      "id": 3
+    },
+    {
+      "title": "John Wick 4",
+      "imgUrl": "https://image.tmdb.org/t/p/original/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg",
+      "description": "John Wick trova una via per sconfiggere la Gran Tavola. Ma prima di guadagnare la libertà, Wick deve affrontare un nuovo nemico che ha potenti alleanze in tutto il mondo e ha mezzi tali da tramutare vecchi amici in nuovi nemici.",
+      "scheduleStart": "2023-05-12",
+      "scheduleEnd": "2023-05-27",
+      "hall": 1,
+      "id": 4
+    },
+    {
+      "title": "65 - Fuga dalla Terra",
+      "imgUrl": "https://www.movietele.it/files/styles/image-w500/public/images/gallery/137666/137666-312696.jpg",
+      "description": "Dopo un incidente catastrofico su un pianeta sconosciuto, il pilota Mills (Adam Driver) scopre subito di essere rimasto bloccato sulla Terra… 65 milioni di anni fa. Con una sola possibilità di salvezza, Mills e l’unica altra sopravvissuta, Koa (Ariana Greenblatt), devono farsi strada attraverso un territorio sconosciuto e pieno di pericolose creature preistoriche in un’epica lotta per la sopravvivenza.",
+      "scheduleStart": "2023-04-20",
+      "scheduleEnd": "2023-04-29",
+      "hall": 10,
+      "id": 5
+    },
+    {
+      "title": "Dungeons & Dragons - L'onore dei ladri",
+      "imgUrl": "https://image.tmdb.org/t/p/w500/oRGUAfWWnktjz8GmwrDY43g49lk.jpg",
+      "description": "Un affascinante ladro e un gruppo di improbabili avventurieri realizzano il colpo del secolo recuperando una reliquia perduta. Ma le cose si mettono male quando il gruppo si imbatte nelle persone sbagliate.",
+      "scheduleStart": "2023-04-27",
+      "scheduleEnd": "2023-05-14",
+      "hall": 3,
+      "id": 6
+    },
+    {
+      "title": "Scream VI",
+      "imgUrl": "https://mr.comingsoon.it/imgdb/locandine/big/62044.jpg",
+      "description": "Dopo gli ultimi omicidi di Ghostface, i quattro sopravvissuti si lasciano alle spalle Woodsboro e iniziano un nuovo capitolo a New York.",
+      "scheduleStart": "2023-05-01",
+      "scheduleEnd": "2023-05-20",
+      "hall": 11,
+      "id": 7
+    },
+    {
+      "title": "Campioni",
+      "imgUrl": "https://movieplayer.net-cdn.it/t/images/2023/02/03/champions_jpg_400x0_crop_q85.jpg",
+      "description": "L'esilarante e commovente storia di un ex allenatore di basket di serie B che, dopo una serie di passi falsi, viene incaricato dal tribunale di gestire una squadra di giocatori con disabilità intellettive. Ben presto si rende conto che, nonostante i suoi dubbi, questa squadra può andare più lontano di quanto abbia mai immaginato.",
+      "scheduleStart": "2023-04-11",
+      "scheduleEnd": "2023-04-23",
+      "hall": 9,
+      "id": 8
+    },
+    {
+      "title": "Perfect Addiction",
+      "imgUrl": "https://movieplayer.net-cdn.it/t/images/2023/02/20/perfect-addiction-poster_jpg_400x0_crop_q85.jpg",
+      "description": "Un’allenatrice di boxe di successo scopre che il suo ragazzo, il campione in carica, l’ha tradita con sua sorella. Decide di vendicarsi diventando la preparatrice dell’unico uomo in grado di detronizzare il campione: la sua nemesi Kayden.",
+      "scheduleStart": "2023-04-14",
+      "scheduleEnd": "2023-04-29",
+      "hall": 4,
+      "id": 9
+    },
+    {
+      "title": "Operation Fortune",
+      "imgUrl": "https://image.tmdb.org/t/p/original//vQGw9lzfh9hEoYSOWAE5XbZ6J7s.jpg",
+      "description": "La storia di un agente dell'MI6, reclutato da un'associazione mondiale di controspionaggio per cercare di sventare la vendita di una nuova arma letale, che minaccia di sovvertire l'ordine del pianeta. Affiancato contro i suoi desideri da un esperto in high-tech della CIA, parte per una missione in giro per il mondo per infiltrarsi nella cerchia di un trafficante d'armi miliardario.",
+      "scheduleStart": "2023-04-17",
+      "scheduleEnd": "2023-04-30",
+      "hall": 12,
+      "id": 10
+    }
+  ]
 }

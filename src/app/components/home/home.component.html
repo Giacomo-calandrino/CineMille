@@ -4,21 +4,21 @@
         <!-- Lista film -->
         
         <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-3">
-            <div class="col">
+            <div *ngFor="let movie of movies" class="col">
                 <div class="card my-4 text-bg-dark shadow-lg">
-                    <img src="..." class="card-img-top poster" alt="poster">
+                    <img src="{{movie.imgUrl}}" class="card-img-top poster" alt="{{movie.title}}" loading="lazy">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
+                        <h5 class="card-title"><b>{{movie.title}}</b></h5>
+                        <hr>
+                        <p class="card-text"><b>Inizio:</b> {{movie.scheduleStart | date:'dd/MM/yy'}} <br> <b>Fine:</b> {{movie.scheduleEnd | date:'dd/MM/yy'}}</p>
+                        <p class="card-text"><b>Sala:</b> {{movie.hall}}</p>
                         <button routerLink="/details" class="btn btn-outline-light btn-sm float-end">Dettagli</button>
                     </div>
                 </div>
             </div>
         </div>
         
-        <!-- Loading -->
+        <!-- Loading spinner -->
 
         <div *ngIf="isLoading" class="d-flex justify-content-center align-items-center div-loading">
             <div class="spinner-border loading" role="status">
