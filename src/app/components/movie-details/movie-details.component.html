@@ -1,3 +1,42 @@
 <div class="background">
-    <div class="container glass">dettagli del film selezionato</div>
+    <div class="container glass">
+        <div class="row m-5">
+            <div class="col-lg-3 col-md-4 col-sm-12">
+                <img class="poster mb-3" src="{{movie.imgUrl}}" alt="{{movie.title}}">
+            </div>
+            <div class="col-lg-8 offset-lg-1 col-md-7 offset-md-1 col-sm-12 mt-3">
+                <h2 class="shadow-text">{{movie.title}}</h2>
+                <hr>
+                <p class="shadow-text">{{movie.description}}</p>
+                <form>
+                    <div class="mt-4 col-lg-3 col-md-6 col-6">
+                        <label for="scheduleStartInput" class="shadow-text form-label">Inizio programmazione:</label>
+                        <input [(ngModel)]="patchData.scheduleStart" type="date" name="scheduleStart"
+                            id="scheduleStartInput" class="form-control" value="{{patchData.scheduleStart}}" required>
+                    </div>
+                    <div class="mt-4 col-lg-3 col-md-6 col-6">
+                        <label for="scheduleEndInput" class="shadow-text form-label">Fine programmazione:</label>
+                        <input [(ngModel)]="patchData.scheduleEnd" type="date" name="scheduleEnd" id="scheduleEndInput"
+                            class="form-control" value="{{patchData.scheduleEnd}}" required>
+                    </div>
+                    <div class="mt-4 col-lg-2 col-md-3 col-3">
+                        <label for="hallInput" class="shadow-text form-label">N° sala:</label>
+                        <input [(ngModel)]="patchData.hall" type="number" name="hall" id="hallInput"
+                            class="form-control" min="1" max="12" value="{{patchData.hall}}" required>
+                    </div>
+                    <div class="row m-3 alert alert-success alert-dismissible fade show" role="alert"
+                        *ngIf="patchMovieSuccess">
+                        Il film è stato aggiunto con successo
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                    <div class="mt-5">
+                        <button type="submit" class="btn btn-outline-light btn-lg"
+                            (click)="patchMovie()">Modifica</button>
+                        <button type="button" class="btn btn-outline-danger btn-lg float-end"
+                            (click)="deleteMovie()">Elimina</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 </div>

@@ -30,7 +30,7 @@ export class NewMovieComponent implements OnInit {
     this.movieService.createMovie(this.movie).subscribe((res: IMovie) => {
       if (HttpStatusCode.Created) {
         this.newMovieSuccess = true;
-        console.log(res);
+        // console.log(res);
       }
     });
   }

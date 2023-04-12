@@ -1,36 +1,36 @@
 <div class="background">
     <div class="container glass">
-        <h4 class="head-text text-center m-5">Aggiungi un nuovo film</h4>
+        <h4 class="shadow-text text-center m-5">Aggiungi un nuovo film</h4>
         <form>
             <div class="m-3">
-                <label for="titleInput" class="form-label">Titolo:</label>
+                <label for="titleInput" class="shadow-text form-label">Titolo:</label>
                 <input [(ngModel)]="movie.title" type="text" name="title" id="titleInput" class="form-control" required>
             </div>
             <div class="m-3">
-                <label for="imgInput" class="form-label">Locandina:</label>
+                <label for="imgInput" class="shadow-text form-label">Locandina:</label>
                 <input [(ngModel)]="movie.imgUrl" type="text" name="imgUrl" id="imgInput" class="form-control"
                     placeholder="http://esempio/immagine.png" required>
             </div>
             <div class="m-3">
-                <label for="descriptionInput" class="form-label">Descrizione:</label>
+                <label for="descriptionInput" class="shadow-text form-label">Descrizione:</label>
                 <textarea [(ngModel)]="movie.description" name="description" id="descriptionInput" class="form-control"
                     rows="5" required></textarea>
             </div>
             <div class="row m-3">
                 <div class="col">
-                    <label for="scheduleStartInput" class="form-label">Inizio programmazione:</label>
+                    <label for="scheduleStartInput" class="shadow-text form-label">Inizio programmazione:</label>
                     <input [(ngModel)]="movie.scheduleStart" type="date" name="scheduleStart" id="scheduleStartInput"
                         class="form-control" required>
                 </div>
                 <div class="col">
-                    <label for="scheduleEndInput" class="form-label">Fine programmazione:</label>
+                    <label for="scheduleEndInput" class="shadow-text form-label">Fine programmazione:</label>
                     <input [(ngModel)]="movie.scheduleEnd" type="date" name="scheduleEnd" id="scheduleEndInput"
                         class="form-control" required>
                 </div>
             </div>
             <div class="row m-3">
                 <div class="col">
-                    <label for="hallInput" class="form-label">N° sala:</label>
+                    <label for="hallInput" class="shadow-text form-label">N° sala:</label>
                     <input [(ngModel)]="movie.hall" type="number" name="hall" id="hallInput" class="form-control"
                         min="1" max="12" required>
                 </div>
