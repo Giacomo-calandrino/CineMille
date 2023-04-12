@@ -27,10 +27,9 @@ export class NewMovieComponent implements OnInit {
   ngOnInit(): void {}
 
   newMovie() {
-    this.movieService.createMovie(this.movie).subscribe((res: IMovie) => {
+    this.movieService.createMovie(this.movie).subscribe(() => {
       if (HttpStatusCode.Created) {
         this.newMovieSuccess = true;
-        // console.log(res);
       }
     });
   }

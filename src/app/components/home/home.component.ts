@@ -23,6 +23,7 @@ export class HomeComponent implements OnInit {
   getMovies(){
     this.isLoading = true
     this.movieService.getMovies().subscribe((res:IMovie[]) => {
+      
       // ordino l'array per visualizzare prima i film con la data d'inizio più vicina
       res.sort((a, b) => new Date(a.scheduleStart).getTime() - new Date(b.scheduleStart).getTime())
       this.movies = res

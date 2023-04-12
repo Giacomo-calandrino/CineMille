@@ -43,34 +43,36 @@ export class MovieDetailsComponent implements OnInit {
   getId(){
     this.route.paramMap.subscribe((param:ParamMap) =>{
       this.id = +param.get('id')!
-      // console.log(this.id)
     })
   }
 
   getMovie(){
     this.movieService.getMovie(this.id).subscribe((res:IMovie) =>{
       this.movie = res
-      // console.log('res: ' + res.title)
-      // console.log('movie: ' + this.movie.title)
       this.patchData.scheduleStart = res.scheduleStart
       this.patchData.scheduleEnd = res.scheduleEnd
       this.patchData.hall = res.hall
-      // console.log(this.patchData)
     })
   }
 
   patchMovie(){
-    this.movieService.patchMovie(this.id, this.patchData).subscribe((res:IMovie) =>{
+    this.movieService.patchMovie(this.id, this.patchData).subscribe(() =>{
       if(HttpStatusCode.Ok){
         this.patchMovieSuccess = true
-        console.log(res)
       }
     })
   }
 
   deleteMovie(){
-    this.movieService.deleteMovie(this.id)
-    this.router.navigate([''])
+    this.movieService.deleteMovie(this.id).subscribe(() =>{
+      if(HttpStatusCode.Ok){
+        this.router.navigate([''])
+      }
+    })
+  }
+
+  resetAlert(){
+    this.patchMovieSuccess = false
   }
 
 }
