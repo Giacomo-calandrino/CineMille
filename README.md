@@ -12,10 +12,8 @@ utilizziamo da terminale il comando:
 "npm run server"
 
 Una volta aperta l'applicazione ci troviamo nella sezione "Film" (home.component) dove viene visualizzata una lista
-di tutti i film già inseriti in programmazione, per ogni film vediamo una card che riporta titolo, data di inizio e fine programmazione,
-numero della sala e locandina.
-Sulla card è presente anche un pulsante "dettagli" che ci porta ad un'altra pagina (movie-details.component),
-che ci permette di recuperare tutte le informazioni riguardanti lo specifico film selezionato, compresa una breve descrizione.
+di tutti i film già inseriti in programmazione, per ogni film vediamo una card che riporta titolo, data di inizio e fine programmazione,numero della sala e locandina.
+Sulla locandina è presente un link che ci porta ad un'altra pagina (movie-details.component), dove vengono recuperate tutte le informazioni riguardanti lo specifico film selezionato, compresa una breve descrizione.
 
 Da questa pagina l'utente può anche:
 - modificare i dati riguardanti le date della programmazione,

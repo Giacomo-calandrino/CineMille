@@ -1,23 +1,24 @@
 <div class="background">
     <div class="container">
-        
+
         <!-- Lista film -->
-        
+
         <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-3">
             <div *ngFor="let movie of movies" class="col">
                 <div class="card my-4 text-bg-dark shadow-lg">
-                    <img src="{{movie.imgUrl}}" class="card-img-top poster" alt="{{movie.title}}" loading="lazy">
+                    <a routerLink="/movies/{{movie.id}}"><img src="{{movie.imgUrl}}" class="card-img-top poster"
+                            alt="{{movie.title}}" loading="lazy"></a>
                     <div class="card-body">
                         <h5 class="card-title"><b>{{movie.title}}</b></h5>
                         <hr>
-                        <p class="card-text"><b>Inizio:</b> {{movie.scheduleStart | date:'dd/MM/yy'}} <br> <b>Fine:</b> {{movie.scheduleEnd | date:'dd/MM/yy'}}</p>
+                        <p class="card-text"><b>Inizio:</b> {{movie.scheduleStart | date:'dd/MM/yy'}} <br> <b>Fine:</b>
+                            {{movie.scheduleEnd | date:'dd/MM/yy'}}</p>
                         <p class="card-text"><b>Sala:</b> {{movie.hall}}</p>
-                        <button routerLink="/movies/{{movie.id}}" class="btn btn-outline-light btn-sm float-end">Dettagli</button>
                     </div>
                 </div>
             </div>
         </div>
-        
+
         <!-- Loading spinner -->
 
         <div *ngIf="isLoading" class="d-flex justify-content-center align-items-center div-loading">

@@ -64,15 +64,6 @@
       "id": 7
     },
     {
-      "title": "Campioni",
-      "imgUrl": "https://movieplayer.net-cdn.it/t/images/2023/02/03/champions_jpg_400x0_crop_q85.jpg",
-      "description": "L'esilarante e commovente storia di un ex allenatore di basket di serie B che, dopo una serie di passi falsi, viene incaricato dal tribunale di gestire una squadra di giocatori con disabilità intellettive. Ben presto si rende conto che, nonostante i suoi dubbi, questa squadra può andare più lontano di quanto abbia mai immaginato.",
-      "scheduleStart": "2023-04-12",
-      "scheduleEnd": "2023-04-24",
-      "hall": 10,
-      "id": 8
-    },
-    {
       "title": "Perfect Addiction",
       "imgUrl": "https://movieplayer.net-cdn.it/t/images/2023/02/20/perfect-addiction-poster_jpg_400x0_crop_q85.jpg",
       "description": "Un’allenatrice di boxe di successo scopre che il suo ragazzo, il campione in carica, l’ha tradita con sua sorella. Decide di vendicarsi diventando la preparatrice dell’unico uomo in grado di detronizzare il campione: la sua nemesi Kayden.",
@@ -89,6 +80,15 @@
       "scheduleEnd": "2023-04-30",
       "hall": 12,
       "id": 10
+    },
+    {
+      "title": "I tre moschettieri - D'Artagnan",
+      "imgUrl": "https://www.multisalegarden-iride.it/wp-content/uploads/2023/02/I-TRE-MOSCHETTIERI-DARTAGNAN.jpg",
+      "description": "D’Artagnan, giovane e vivace guascone, viene dato per morto dopo aver cercato di salvare una ragazza da un rapimento. Quando arriva a Parigi, cerca in tutti i modi di scovare gli aggressori ma non sa che la ricerca lo condurrà nel cuore di una vera guerra che mette in gioco il futuro della Francia. Alleandosi con Athos, Porthos e Aramis, tre Moschettieri del Re, D’Artagnan affronterà le macchinazioni del Cardinale Richelieu. Ma, innamorandosi di Costance, la confidente della Regina, si metterà in serio pericolo guadagnandosi l’inimicizia di colei che diventerà il suo peggior nemico: Milady.",
+      "scheduleStart": "2023-04-26",
+      "scheduleEnd": "2023-05-14",
+      "hall": 7,
+      "id": 11
     }
   ]
 }
